@@ -4,6 +4,7 @@
 #include <iostream>
 
 void count_digits(int array[4][4]) {
+  int zeros = 0;
   int ones = 0;
   int twos = 0;
   int threes = 0;
@@ -17,9 +18,13 @@ void count_digits(int array[4][4]) {
   for (int i = 0; i < 4; i++) {
     for (int j = 0; j < 4; j++) {
       switch (array[i][j]) {
+        case 0:
+          zeros = zeros + 1;
+          break;
+
         case 1:
-        ones = ones + 1;
-        break;
+          ones = ones + 1;
+          break;
         case 2:
           twos = twos + 1;
           break;
@@ -47,7 +52,7 @@ void count_digits(int array[4][4]) {
       }
     }
   }
-  std::cout << "1:" << ones << ";2:" << twos << ";3:" << threes
+  std::cout << "0:" << zeros << ";1:" << ones << ";2:" << twos << ";3:" << threes
             << ";4:" << fours << ";5:" << fives << ";6:" << sixes
             << ";7:" << sevens << ";8:" << eights << ";9:" << nines << ";"
             << std::endl;
