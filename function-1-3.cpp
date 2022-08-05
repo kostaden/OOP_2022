@@ -1,5 +1,4 @@
-// This function checks if a given matrix is an identity matrix. (An identiy
-// matrix is a matrix with 1's down the main diagonal and 0's elsewhere)
+// This function checks how many times the numbers 0-9 appear in a given matrix.
 
 #include <iostream>
 
