@@ -19,6 +19,8 @@ bool is_array_palindrome(int integers[], int length){
     }
 }
 
+
+
 int sum_integers(int integers[], int length){
     int sum = 0;
     if(length <= 0){
