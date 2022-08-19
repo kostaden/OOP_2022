@@ -8,5 +8,5 @@ int main(){
 
     std::cout << "The sum of the main diagonal elements is: " << sum_diagonal(array) <<std::endl;
 
-    return 0; 
+    return 0;  
 }
