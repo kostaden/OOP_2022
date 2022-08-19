@@ -1,12 +1,14 @@
 #include <iostream>
-#include <stdlib.h>
+using namespace std;
 
-extern int sum_diagonal(int array[4][4]);
+extern void string_2d_copy(std::string first[][2], std::string second[][2], int n);
 
 int main(){
-    int array[4][4] = {{1,2,3,4}, {5,6,7,8}, {10,15,20,25}, {50,100,45,5}};
 
-    std::cout << "The sum of the main diagonal elements is: " << sum_diagonal(array) <<std::endl;
+    int n = 3;
+    std::string first[n][2] = {{'divya', 'kosta', 'athan'}, {'divya', 'kosta', 'athan'}, {'divya', 'kosta', 'athan'}};
+    std::string second[n][2] = {{},{},{}};
 
-    return 0;  
+    std
+
 }
