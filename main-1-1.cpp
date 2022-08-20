@@ -7,7 +7,7 @@ int main(){
 
     int n = 3;
     std::string first[n][2] = {{"one", "two"}, {"three", "four"}, {"five", "six"}};
-    std::string second[3][2] = {{},{},{}};
+    std::string second[3][2];
 
     string_2d_copy(first, second, 3);
     return 0;
