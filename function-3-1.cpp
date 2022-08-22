@@ -26,6 +26,7 @@ bool equalsArray(int *numbers1, int *numbers2, int length){
     if(length < 0){
         for(int i=0; i < length; i++){
                 if(numbers1[i] = numbers2[i])
+                return true;
             }
         }
     }
