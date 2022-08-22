@@ -28,6 +28,10 @@ bool equalsArray(int *numbers1, int *numbers2, int length){
                 if(numbers1[i] = numbers2[i])
                 return true;
             }
+
         }
+    else{
+        return false;
+    }
     }
 
