@@ -14,6 +14,6 @@ int main(){
     temp = 373;
     cout << "phase at" << temp << "K is: " << get_temp_phase(temp) << endl;
     
-    return 0;
+    return temp;
     
 }
