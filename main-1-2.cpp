@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(){
+
+    
     Person a, b, c, d;
 
     a.setName("Jiyoon");
