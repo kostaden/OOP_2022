@@ -8,6 +8,7 @@ class Person
 {
 public:
 //Constructor
+    Person();
     Person(int mySalary, string myName);
 
 //Attributes

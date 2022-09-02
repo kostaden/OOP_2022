@@ -4,7 +4,11 @@
 using namespace std;
 
 //Implementation of book constructor
+Person::Person(){
+    
+}
 Person::Person(int mySalary, string myName){
+
 
 name = myName;
 salary = mySalary;
