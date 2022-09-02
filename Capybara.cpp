@@ -5,6 +5,8 @@ using namespace std;
 //Implementation of book constructor
 Capybara::Capybara(){
 
+name = "";
+age = 0;
 }
 
 void Capybara::setName(string capyName){
@@ -25,5 +27,5 @@ int Capybara::getAge(){
 
 Capybara::~Capybara()
 {
-    
+
 }
