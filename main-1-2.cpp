@@ -5,16 +5,16 @@ using namespace std;
 int main(){
 
     
-    Person a, b, c, d;
+    Person a(0, "Kosta"), b(20000, "Dylan"), c(19000, "Nate"), d(10000, "Michael");
 
-    a.setName("Jiyoon");
-    b.setName("Divya");
-    c.setName("Lachlan");
-    d.setName("Andy");
+    
+    b.setName("Jiyoon");
+    c.setName("Divya");
+    d.setName("Lachlan");
 
     a.setSalary(20000);
     b.setSalary(18000);
     c.setSalary(10000);
-    d.setSalary(90000);
     
+    cout << a.getName() << a.getSalary() << endl << b.getName() << b.getSalary() << endl << c.getName() << c.getSalary() << endl << d.getName() << d.getSalary() << endl; 
 }

@@ -1,12 +1,14 @@
 #include <iostream>
 #include "Person.h"
+#include <string>
 using namespace std;
 
 //Implementation of book constructor
 Person::Person(int mySalary, string myName){
 
-mySalary = 19000;
-myName = "Kosta";
+name = myName;
+salary = mySalary;
+
 }
 
 void Person::setName(string myName){
