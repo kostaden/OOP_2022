@@ -21,7 +21,7 @@ public:
     string getName();
     int getSalary();
 
-//Destructor
+//Destructor    
     ~Person();
 
 
