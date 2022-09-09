@@ -12,8 +12,6 @@ Bike_yard::Bike_yard(){
 Bike_yard::Bike_yard(int capacity){
     size = capacity;
     count = 0;
-    code_count = 0;
-    sel_code = 10;
     stock = new Bike[capacity];
 }
 
@@ -23,8 +21,9 @@ int Bike_yard::get_total_stock_count(){
 }
 
 int Bike_yard::get_stock_quantity(int code){
-    for(int i = 0; i < size; i++){
-        if(stock[i].get_code() == sel_code){
+    int code_count;
+    for(int i = 0; i < count; i++){
+        if(stock[i].get_code() == code){
             code_count++;
         }
     }
@@ -40,8 +39,9 @@ bool Bike_yard::add_stock(Bike b){
     if(count < size){
         stock[count] = b;
         count++;
+        return true;
     }
-    return true;
+    return false;
 }
 
 Bike_yard::~Bike_yard(){
