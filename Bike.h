@@ -12,8 +12,8 @@ class Bike{
         std::string theBrand;
         int theCode;
         
-        std::string set_brand(std::string brand);
-        int set_code(int code);
+        void set_brand(std::string brand);
+        void set_code(int code);
         std::string get_brand();
         int get_code();
 

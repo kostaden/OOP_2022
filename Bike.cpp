@@ -12,11 +12,11 @@ Bike::Bike(std::string brand, int code){
     theCode = code;
 }
 
-std::string Bike::set_brand(std::string brand){
+void Bike::set_brand(std::string brand){
     theBrand = brand;
 }
 
-int Bike::set_code(int code){
+void Bike::set_code(int code){
     theCode = code;
 }
 
