@@ -1,19 +1,20 @@
-#ifndef Musician_H
-#define Musician_H
+#ifndef Orchestra_H
+#define Orchestra_H
+#include "Musician.h"
 #include <string>
 using namespace std;
 
 //Definition of a book
-class Musician
+class Orchestra
 {
 public:
 //Constructor
-    Musician();
-    Musician(std::string instrument, int experience);
+    Orchestra();
+    Orchestra(int size);
 
-//Attributes
-    string the_instrument;
-    int the_experience;
+//Attributes   
+    int count_of_musicians;
+    
 
 //Functions
     void set_Instrument(std::string instrument);

@@ -5,27 +5,26 @@ using namespace std;
 //Implementation of book constructor
 Musician::Musician(){
 
-name = "";
-age = 0;
 }
-Musician::
+Musician::Musician(std::string instrument, int experience){
 
-void Capybara::setName(string capyName){
-    name = capyName;
+the_instrument = instrument;
+the_experience = experience;
 }
 
-void Capybara::setAge(int capyAge){
-    age = capyAge;
+void Musician::set_Instrument(std::string instrument){
+    the_instrument = instrument;
 }
 
-string Capybara::getName(){
-    return name;
+void Musician::set_Experience(int experience){
+    the_experience = experience;
 }
-
-int Capybara::getAge(){
-    return age;
+std::string Musician::get_instrument(){
+    return the_instrument;
 }
-
+int Musician::get_experience(){
+    return the_experience;
+}
 Musician::~Musician()
 {
 
