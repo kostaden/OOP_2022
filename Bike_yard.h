@@ -10,9 +10,7 @@ class Bike_yard{
         
 
         int count;
-        int size;
-        int code_count;
-        int sel_code;
+        int max_size;
         Bike *stock;
 
         int get_total_stock_count();

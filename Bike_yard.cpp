@@ -4,13 +4,12 @@
 
 Bike_yard::Bike_yard(){
     count = 0;
-    code_count = 0;
     stock = new Bike;
 
 }
 
 Bike_yard::Bike_yard(int capacity){
-    size = capacity;
+    max_size = capacity;
     count = 0;
     stock = new Bike[capacity];
 }
@@ -36,7 +35,7 @@ Bike *Bike_yard::get_current_stock_list(){
 }
 
 bool Bike_yard::add_stock(Bike b){
-    if(count < size){
+    if(count < max_size){
         stock[count] = b;
         count++;
         return true;
