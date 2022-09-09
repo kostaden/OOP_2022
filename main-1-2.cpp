@@ -5,5 +5,6 @@ using namespace std;
 
 int main(){
 
-    Bike a("Motorola", 12555), b("BMW", 10);
+    Bike_yard a1;
+    Bike a("Motorola", 12555), b("BMW", 10), c("Mercedes", 10);
 }
