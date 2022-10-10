@@ -15,8 +15,9 @@ class Ship: public Tile{
     
     Ship();
 
-    void placeShip(Tile x, Tile y); 
-    
+
+
+
 
 };
 #endif
