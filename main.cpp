@@ -1,10 +1,12 @@
+#include "Tile.h"
 #include "Board.h"
 #include <iostream>
 using namespace std;
 
 int main(){
 
-    Board a;
-    a.print_board();
+    board a;
+    a.initBoard();
+    a.printBoard();
     return 0;
 }
