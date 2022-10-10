@@ -10,19 +10,22 @@ class Board{
 
     private:
 
-        int board[10][10];
+        int grid[10][10];
 
     public:
         //Initialise 10x10 board, filled with 0s
         Board(){
             for (int row = 0; row <10; row++){
                 for (int col = 0; col <10; col++){
-                    board[row][col] = 0;
+                    grid[row][col] = tile;
                 }
             }
         }
     //Print board
-    //bool setBoat()
+
+    //bool checkSpace(){
+
+    //}
 
     void print_board(){
         cout << "  1 2 3 4 5 6 7 8 9 10" << endl;
@@ -31,11 +34,12 @@ class Board{
             cout << rowLabel << " ";
             rowLabel++;
             for (int col = 0; col <10; col++){
-                cout << board[row][col] << " ";
+                cout << grid[row][col] << " ";
             }
             cout << endl;
         }
     }
 
 };
+
 #endif
