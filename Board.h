@@ -8,7 +8,6 @@ using namespace std;
 class Board{
 
 
-
     private:
 
         int board[10][10];
@@ -23,8 +22,10 @@ class Board{
             }
         }
     //Print board
+    //bool setBoat()
+
     void print_board(){
-        cout << " 0 1 2 3 4 5 6 7 8 9" << endl;
+        cout << "  1 2 3 4 5 6 7 8 9 10" << endl;
         char rowLabel = 'A';
         for (int row = 0; row <10; row++){
             cout << rowLabel << " ";
