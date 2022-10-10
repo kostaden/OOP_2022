@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
 
-    board a;
+    Board a;
     a.initBoard();
     a.printBoard();
     return 0;

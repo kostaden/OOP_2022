@@ -4,14 +4,14 @@
 #include <string>
 using namespace std;
 
-class tile{
+class Tile{
 
     public:
         int xpos;
         int ypos;
-        int status;
+        char status;
 
-    tile();
+    Tile();
 };
 
 #endif
