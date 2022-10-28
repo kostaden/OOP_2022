@@ -7,6 +7,7 @@ Car::Car(){
 };
 
 Car::Car(int price){
+    price = price;
 };
 
 void Car::set_price(int p){
