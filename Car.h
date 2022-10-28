@@ -15,10 +15,12 @@ class Car{
     Car();
     Car(int price);
 
-    void set_price(int price);
-    void set_vinNumber(int vinNumber);
+    void set_price(int p);
+    void set_vinNumber(int vN);
+    void set_emissions(int em);
 
     virtual void drive(int kms);
+    int get_emissions();
     int get_price();
     int get_vinNumber();
 
