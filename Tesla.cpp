@@ -44,5 +44,6 @@ void Car::drive(int kms){
         for(int x=0; x < kms; x++){
             emissions = emissions + 74;
         }
+        for ()
     }
 }
