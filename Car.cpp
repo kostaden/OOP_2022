@@ -10,7 +10,7 @@ Car::Car(int price){
 };
 
 void Car::set_price(int p){
-    price = price;
+    price = p;
 }
 
 void Car::set_vinNumber(int vN){
