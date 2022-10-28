@@ -33,6 +33,3 @@ int Car::get_emissions(){
     return emissions;
 }
 
-void Car::drive(int kms){
-    kms = emissions;
-}
