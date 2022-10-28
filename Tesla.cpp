@@ -1,15 +1,17 @@
 #include "Tesla.h"
 #include "Car.h"
 
+static int nextVinNumber = 100001;
 Tesla::Tesla(){
 
+nextVinNumber++;
 };
 
 Tesla::Tesla(char model, int price){
-
+nextVinNumber++;
 };
 
-static int nextVinNumber = 100001;
+
 
 void Tesla::set_model(char m){
     model = m;
