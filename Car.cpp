@@ -14,7 +14,7 @@ void Car::set_price(int p){
 }
 
 void Car::set_vinNumber(int vN){
-    vinNumber = vinNumber;
+    vinNumber = vN;
 }
 
 void Car::set_emissions(int em){
