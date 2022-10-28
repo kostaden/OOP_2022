@@ -1,7 +1,9 @@
 #include "Tesla.h"
 #include "Car.h"
 
+
 static int nextVinNumber = 100001;
+
 Tesla::Tesla(){
 
 nextVinNumber++;
@@ -38,5 +40,9 @@ void Tesla::chargeBattery(int mins){
 }
 
 void Car::drive(int kms){
-    kms = emissions;
+    while(Tesla batteryPercentage > 0;){
+        for(int x=0; x < kms; x++){
+            emissions = emissions + 74;
+        }
+    }
 }
