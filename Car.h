@@ -19,10 +19,11 @@ class Car{
     void set_vinNumber(int vN);
     void set_emissions(int em);
 
-    virtual void drive(int kms);
     int get_emissions();
     int get_price();
     int get_vinNumber();
+
+    virtual void drive(int kms) = 0;
 
 
 };
